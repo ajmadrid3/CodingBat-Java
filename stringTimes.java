@@ -25,7 +25,7 @@ public class stringTimes {
 
     public static void main(String[] args) {
         System.out.println(stringTimes("Hi", 2));
-        System.out.println(stringTimes("Hi, 0"));
+        System.out.println(stringTimes("Hi", 0));
         System.out.println(stringTimes("code", 4));
     }
 }
