@@ -15,3 +15,10 @@ Given a string and a non-negative int n, we'll say that the front of the string 
 frontTimes("Chocolate", 2) → "ChoCho"
 frontTimes("Chocolate", 3) → "ChoChoCho"
 frontTimes("Abc", 3) → "AbcAbcAbc"
+
+# makes10
+Given 2 ints, a and b, return true if one if them is 10 or if their sum is 10.
+
+makes10(9, 10) → true
+makes10(9, 9) → false
+makes10(1, 9) → true
